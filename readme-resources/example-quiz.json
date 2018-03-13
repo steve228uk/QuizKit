@@ -1,0 +1,30 @@
+[
+    {
+        "question": "What is my favourite color?",
+        "type": "multiple_choice",
+        "correct_response": 1,
+        "responses": [
+            "Blue",
+            "Orange",
+            "Green",
+            "Purple"
+        ]
+    },
+    {
+        "question": "What model of car is this?",
+        "type": "single_answer",
+        "image_url": "car.jpg",
+        "responses": [
+            "Ford"
+        ]
+    },
+    {
+        "question": "Pick my favourite apple",
+        "type": "image_choice",
+        "responses": [
+            "image1.jpg",
+            "image2.jpg",
+            "image3.jpg"
+        ]
+    }
+]

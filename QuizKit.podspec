@@ -55,10 +55,8 @@ UI is not currently included but an example application will be made available s
   #  profile URL.
   #
 
-  s.author             = { "" => "steve228uk@gmail.com" }
-  # Or just: s.author    = ""
-  # s.authors            = { "" => "steve228uk@gmail.com" }
-  # s.social_media_url   = "http://twitter.com/"
+  s.author             = { "Stephen Radford" => "steve228uk@gmail.com" }
+  s.social_media_url   = "http://twitter.com/steve228uk"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

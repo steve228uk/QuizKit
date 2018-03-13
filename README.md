@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/steve228uk/QuizKit/blob/master/LICENSE)
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </p>
 
 ---

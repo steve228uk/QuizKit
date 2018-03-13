@@ -5,6 +5,8 @@
 <p align="center">
     <a href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+    </a> <a href="https://cocoapods.org/pods/QuizKit">
+        <img src="https://img.shields.io/cocoapods/v/QuizKit.svg" alt="CocoaPods">
     </a>
 </p>
 

@@ -15,9 +15,10 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "QuizKit"
-  s.version      = "1.0.0"
-  s.summary      = "A framework for developing local or remote quiz apps for iOS or tvOS."
+  s.name            = "QuizKit"
+  s.version         = "1.0.0"
+  s.swift_version   = "4.0"
+  s.summary         = "A framework for developing local or remote quiz apps for iOS or tvOS."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?

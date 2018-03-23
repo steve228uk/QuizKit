@@ -1,6 +1,7 @@
 [
     {
         "question": "What is my favourite color?",
+        "category": "General Knowledge",
         "type": "multiple_choice",
         "correct_response": 1,
         "responses": [

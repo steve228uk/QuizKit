@@ -26,6 +26,12 @@
             "image1.jpg",
             "image2.jpg",
             "image3.jpg"
+        ],
+        "labels": [
+            "Jazz",
+            "Pink Lady",
+            "Royal Gala",
+            "Granny Smith"
         ]
     }
 ]

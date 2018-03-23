@@ -20,6 +20,9 @@ public struct QKQuestion: Hashable {
     
     /// Responses for the question
     public let responses: [String]
+
+    /// Optionally labels can be set for a question that can be used in addition to images or to replace responses visible to the player
+    public let labels: [String]
     
     /// Shuffled responses
     public var shuffledResponses: [String] {
@@ -44,6 +47,7 @@ public struct QKQuestion: Hashable {
         question = json["question"]?.string ?? ""
         category = json["category"]?.string
         responses = json["responses"]?.arrayObject as? [String] ?? []
+        lables = json["labels"]?.arrayObject as? [String] ?? []
         correctResponseIndex = json["correct_response"]?.int ?? 0
         imageUrl = json["image_url"]?.string
         

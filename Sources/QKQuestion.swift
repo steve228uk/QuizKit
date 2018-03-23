@@ -47,7 +47,7 @@ public struct QKQuestion: Hashable {
         question = json["question"]?.string ?? ""
         category = json["category"]?.string
         responses = json["responses"]?.arrayObject as? [String] ?? []
-        lables = json["labels"]?.arrayObject as? [String] ?? []
+        labels = json["labels"]?.arrayObject as? [String] ?? []
         correctResponseIndex = json["correct_response"]?.int ?? 0
         imageUrl = json["image_url"]?.string
         

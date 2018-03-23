@@ -86,9 +86,10 @@ public class QKSession {
     /// - Parameters:
     ///   - response: The response to submit
     ///   - question: The question the response relates to
-    public func submit(response: String, for question: QKQuestion) {
+    @discardableResult public func submit(response: String, for question: QKQuestion) -> Bool {
         let isCorrect = question.correctResponse == response
         responses[question] = isCorrect
+        return isCorrect
     }
     
     /// Returns the progress value for the current question. This is great for use in a `UIProgressView`
